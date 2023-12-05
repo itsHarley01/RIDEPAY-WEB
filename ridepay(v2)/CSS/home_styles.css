@@ -1,0 +1,139 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    #container {
+        display: flex;
+        flex: 1;
+        overflow: hidden; 
+        
+    }
+    #sidebar {
+        width: 220px;
+        background-color: #141E46;
+        padding: 20px;
+        padding-right: 0px;
+        overflow-y: auto; 
+        
+    }
+    #content {
+        flex: 1;
+        padding: 20px;
+        background-color: #FAF9F6;
+        background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('./images/Ridepay\ background4.png')
+    }
+
+    h2 {
+        color: #F2BE22;
+        font-weight: 600;
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        margin-left: 40px;
+    }
+    li.itemssb {
+        margin: 10px;
+        text-align: left;
+        margin-right: 0px;
+        transition: 0.3s;
+        padding: 5px;
+        border-radius: 10px 0px 0px 10px;  
+    }
+    
+    .side {
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+        transition: background-color 0.3s;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+
+    }
+    #sidebar hr {
+        border: none; 
+        border-top: 1px solid #303c74;
+        margin: 10px 0; 
+        margin-right: 20px;
+    }
+    .logo {
+        width: 80px; 
+        height: auto;
+        margin-right: 10px;
+    }
+    .logout {
+        color: red;
+        text-decoration: none;
+        font-weight:550;
+        position: absolute;
+        bottom: 15px;
+        margin-left: 16px;
+    }
+    #lotxt {
+        color: red;
+        text-decoration: none;
+    }
+    i {
+        margin-right: 8px;
+    }
+    li:hover {
+        cursor: pointer;
+    }
+    .taassb {
+        margin-right: 20px;
+    }
+.itemssb.active {
+    background-color: #FAF9F6;
+    color: #141E46;
+    transition: 0.3s;
+}
+.itemssb.active a {
+    color: #141E46;
+    transition: 0.3s;
+}
+.itemssb.active i {
+    color: #283b85 !important;
+}
+.ayo {
+    color: #c8ff00;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.menu-item {
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 4.5px;
+    color: white;
+    font-size: 16.4px;
+  }
+  
+  .sub-menu {
+    list-style: none;
+    padding: 0;
+    max-height: 0;
+    margin-left: 10px;
+    overflow: hidden;
+    color: white;
+    transition: max-height 0.3s ease-in-out; /* Add a transition for smooth animation */
+  }
+  
+  .sub-menu li {
+    padding: 5px;
+    cursor: pointer;
+  }
+  #toggle-icon {
+    transition: transform 0.3s;
+}
+
+.rotated {
+    transform: rotate(-90deg); /* Rotate the icon 180 degrees */
+}

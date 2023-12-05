@@ -1,0 +1,20 @@
+#preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    display: flex;
+    transform: translate(-50%,-50%);
+    transition: 0.5s;
+    z-index: 9999; /* Ensure it's on top of other content */
+}
+
+#preloader img {
+    width: 200px; /* Adjust the size to your preference */
+    height: auto;
+    transition: 0.5s;
+}
+#content-wrapper {
+  display: none;
+  transition: opacity 0.5s;
+}

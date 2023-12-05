@@ -1,0 +1,120 @@
+body{
+    background-color: #06203d00;
+font-family: 'Poppins', sans-serif;
+}
+a.redirect {
+text-decoration: none;
+color: #f2be22;
+font-weight: bold;
+}
+.conf{
+    padding: 30px;
+    background-color: white;
+    align-items: center;
+    height: 60px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 400px;
+    border-radius: 40px;
+    font-size: 25px;
+}
+
+.btn_m{
+    display: inline-block;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #D8A23E;
+    color: #06203D;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.btn_m:hover{
+    background-color: white;
+}
+
+.btn_m2{
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    border: none;
+    background-color: #D8A23E;
+    color: #06203D;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.btn_m2:hover{
+    background-color: white;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    color: #fff;
+    background-color: #06203D;
+}
+
+h1{
+    margin-left: 450px;
+}
+
+.btn_save{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+form{
+    margin-left: 500px;
+    width: 400px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom:40px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.image-container img {
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+.infotable{
+    padding-left: 20px;
+    background-color: #fff;
+}
+
+.cont2{margin-top: 40px;
+display: flex;
+justify-content: center;
+}
+.card {
+display: flex;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+}
